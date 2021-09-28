@@ -2,10 +2,16 @@
 //www.apluscompsci.com
 //Name -
 
+import java.util.Scanner;
+
+import static java.lang.System.out;
+
 public class LeaveOutRunner
 {
 	public static void main( String args[] )
 	{
+
+
 		LeaveOut s = new LeaveOut();		
 		System.out.println( s.go( "dog",1 ) ) ;
 		System.out.println( s.go( "aplus",2 ) ) ;
