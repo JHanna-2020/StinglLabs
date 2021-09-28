@@ -11,6 +11,6 @@ public class Middle
 
 
 
-		return a.substring(a.length()/2,a.length()-1 );
+		return a.substring(a.length()/2,a.length()/2+1);
 	}
 }

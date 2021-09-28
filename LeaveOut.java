@@ -8,6 +8,8 @@ public class LeaveOut
 	//post : string returned minus character at i
    public static String go( String a, int i)
 	{
-		return "";
+		i = a.length()/2;
+
+		return a.substring(i,i+1);
 	}
 }
