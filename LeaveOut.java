@@ -16,8 +16,10 @@ public class LeaveOut
 
 		out.print("Enter index of letter to be removed:: ");
 		int index = keyboard.nextInt();
-		String test = a.substring(index, index+1);
-		String newStrign = a-test;
-		return test ;
+
+		String before = a.substring(0,index);
+		String remove = a.substring(index, index+1);
+		String after = a.substring(index+1);
+		return before+after ;
 	}
 }
